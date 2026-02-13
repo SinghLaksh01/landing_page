@@ -2,25 +2,33 @@
     font:"Roboto", sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero,
 .footer {
     background-color: #1F2937;
+    display:flex;
+    flex-direction: column;
 }
 
 .hero-main-text {
-    font:48;
+    font-size:48;
     font-weight: 900;
     color: #F9FAF8
 }
 
 .hero-secondary-text {
-    font:18px;
+    font-size:18px;
     color: #e5e7eb;
 }
 
 .hero-logo {
-    font:24px;
+    font-size:24px;
     color:#F9FAF8;
+    margin:16px;
 }
 
 button {
@@ -28,7 +36,7 @@ button {
 }
 
 .information-header {
-    font:36px;
+    font-size:36px;
     font-weight: 900;
     color:#1F2937;
 }
@@ -38,7 +46,42 @@ button {
 }
 
 .quote-text {
-    font:36px;
+    font-size:36px;
     font-weight: 300;
     color: #1F2937;
+}
+
+.quote {
+    display:flex;
+}
+
+.donate {
+    display:flex;
+}
+
+.similar-games {
+    display:flex;
+}
+
+.header {
+    display:flex;
+}
+
+.header-right {
+    display:flex;
+    justify-content:flex-end;
+    margin-left:auto;
+}
+
+.hero-main {
+    display: flex;
+}
+
+ul {
+    display:flex;
+    gap:15px;
+}
+
+li {
+    list-style: none;
 }
